@@ -22,6 +22,7 @@
           {
             "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas",
             "@type": "sc:Canvas",
+            "label":"The Garden of Earthly Delights",
             "height":2952,
             "width":1574,
             "images": [
