@@ -1,54 +1,32 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://www.dropbox.com/s/6urm85pjofkibsk/test.json?dl=0",
+  "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json",
 
-  "label": "Book 1",
+  "label": "Data URI for Thumbnail",
   "metadata": [
-    {"label": "Author", "value": "Anne Author"},
-    {"label": "Published", "value": [
-        {"@value": "Paris, circa 1400", "@language": "en"},
-        {"@value": "Paris, environ 14eme siecle", "@language": "fr"}
-        ]
-    }
+    {"label": "Author", "value": "David Newbury"},
   ],
-  "description": "A longer description of this example book. It should give some real information.",
-  "navDate": "1856-01-01T00:00:00Z",
-
-  "license": "http://example.org/license.html",
-  "attribution": "Provided by Example Organization",
-  "service": {
-    "@context": "http://example.org/ns/jsonld/context.json",
-    "@id": "http://example.org/service/example",
-    "profile": "http://example.org/docs/example-service.html"
-  },
+  "description": "This is to test if you can use an embedded data URI as a thumbnail.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
   "seeAlso":
     {
-      "@id": "http://example.org/library/catalog/book1.marc",
-      "format": "application/marc",
-      "profile": "http://example.org/profiles/marc21"
+      "@id": "https://github.com/workergnome/evil_manifests",
+      "format": "text/html"
     },
-  "rendering": {
-    "@id": "http://example.org/iiif/book1.pdf",
-    "label": "Download as PDF",
-    "format": "application/pdf"
-  },
   "within": "http://example.org/collections/books/",
 
   "sequences": [
       {
-        "@id": "http://example.org/iiif/book1/sequence/normal",
+        "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#sequence",
         "@type": "sc:Sequence",
-        "label": "Current Page Order",
-        "viewingDirection": "left-to-right",
-        "viewingHint": "paged",
         "canvases": [
           {
-            "@id": "http://example.org/iiif/book1/canvas/p1",
+            "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas",
             "@type": "sc:Canvas",
-            "label": "p. 1",
-            "height":1000,
-            "width":750,
+            "height":2952,
+            "width":1574,
             "images": [
               {
                 "@type": "oa:Annotation",
