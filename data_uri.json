@@ -10,13 +10,10 @@
   "description": "This is to test if you can use an embedded data URI as a thumbnail.",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
-  "seeAlso":
-    {
+  "seeAlso": {
       "@id": "https://github.com/workergnome/evil_manifests",
       "format": "text/html"
-    },
-  "within": "http://example.org/collections/books/",
-
+  },
   "sequences": [
       {
         "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#sequence",
@@ -32,114 +29,15 @@
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource":{
-                    "@id": "http://example.org/iiif/book1/res/page1.jpg",
+                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/the_garden_of_earthly_delights.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "http://example.org/images/book1-page1",
-                        "profile": "http://iiif.io/api/image/2/level1.json"
-                    },
-                    "height":2000,
-                    "width":1500
                 },
-                "on": "http://example.org/iiif/book1/canvas/p1"
+                "on": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas"
               }
             ],
-            "otherContent": [
-              {
-                "@id": "http://example.org/iiif/book1/list/p1",
-                "@type": "sc:AnnotationList",
-                "within": {
-                    "@id": "http://example.org/iiif/book1/layer/l1",
-                    "@type": "sc:Layer",
-                    "label": "Example Layer"
-                }
-              }
-            ]
-        },
-          {
-            "@id": "http://example.org/iiif/book1/canvas/p2",
-            "@type": "sc:Canvas",
-            "label": "p. 2",
-            "height":1000,
-            "width":750,
-            "images": [
-              {
-                "@type": "oa:Annotation",
-                "motivation": "sc:painting",
-                "resource":{
-                    "@id": "http://example.org/images/book1-page2/full/1500,2000/0/default.jpg",
-                    "@type": "dctypes:Image",
-                    "format": "image/jpeg",
-                    "height":2000,
-                    "width":1500,
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "http://example.org/images/book1-page2",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
-                        "height":8000,
-                        "width":6000,
-                        "tiles": [{"width": 512, "scaleFactors": [1,2,4,8,16]}]
-                    }
-                },
-                "on": "http://example.org/iiif/book1/canvas/p2"
-              }
-            ],
-            "otherContent": [
-              {
-                "@id": "http://example.org/iiif/book1/list/p2",
-                "@type": "sc:AnnotationList",
-                "within": "http://example.org/iiif/book1/layer/l1"  
-              }
-            ]
-          },
-          {
-            "@id": "http://example.org/iiif/book1/canvas/p3",
-            "@type": "sc:Canvas",
-            "label": "p. 3",
-            "height":1000,
-            "width":750,
-            "images": [
-              {
-                "@type": "oa:Annotation",
-                "motivation": "sc:painting",
-                "resource":{
-                    "@id": "http://example.org/iiif/book1/res/page3.jpg",
-                    "@type": "dctypes:Image",
-                    "format": "image/jpeg",
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "http://example.org/images/book1-page3",
-                        "profile": "http://iiif.io/api/image/2/level1.json"
-          },
-                    "height":2000,
-                    "width":1500
-                },
-                "on": "http://example.org/iiif/book1/canvas/p3"
-              }
-            ],
-            "otherContent": [
-              {
-                "@id": "http://example.org/iiif/book1/list/p3",
-                "@type": "sc:AnnotationList",
-                "within": "http://example.org/iiif/book1/layer/l1"               
-              }
-            ]
           }
         ]
       }
-    ],
-  "structures": [
-    {
-      "@id": "http://example.org/iiif/book1/range/r1",
-        "@type": "sc:Range",
-        "label": "Introduction",
-        "canvases": [
-          "http://example.org/iiif/book1/canvas/p1",
-          "http://example.org/iiif/book1/canvas/p2",
-          "http://example.org/iiif/book1/canvas/p3#xywh=0,0,750,300"
-        ]
-    }
   ]
 }
