@@ -25,6 +25,7 @@
             "label":"The Garden of Earthly Delights",
             "height":2952,
             "width":1574,
+            "thumbnail":"https://github.com/workergnome/evil_manifests/raw/master/the_garden_of_earthly_delights_thumb.png",
             "images": [
               {
                 "@type": "oa:Annotation",
