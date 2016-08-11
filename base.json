@@ -38,9 +38,8 @@
                         "@context": "http://iiif.io/api/image/2/context.json",
                         "@id": "ttps://github.com/workergnome/evil_manifests/raw/master/garden",
                         "profile": "http://iiif.io/api/image/2/level0.json"
-                    },
+                    }
                 },
-
                 "on": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas"
               }
             ]
