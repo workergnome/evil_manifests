@@ -31,10 +31,16 @@
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource":{
-                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/the_garden_of_earthly_delights.jpg",
+                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/garden/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
-                    "format": "image/jpeg"
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "ttps://github.com/workergnome/evil_manifests/raw/master/garden",
+                        "profile": "http://iiif.io/api/image/2/level0.json"
+                    },
                 },
+
                 "on": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas"
               }
             ]

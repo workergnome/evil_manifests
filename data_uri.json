@@ -31,7 +31,7 @@
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource":{
-                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/the_garden_of_earthly_delights.jpg",
+                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg"
                 },
