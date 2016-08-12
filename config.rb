@@ -22,9 +22,9 @@ class NetlifyHeaders < Middleman::Extension
   end
 end
 
-::Middleman::Extensions.register(:netlify, NetlifyHeaders)
+::Middleman::Extensions.register(:netlify_headers, NetlifyHeaders)
 
-activate :netlify
+activate :netlify_headers
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
