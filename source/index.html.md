@@ -11,3 +11,6 @@ Manifest Name                              |
 [Base Manifest](/iiif/base.json)           | This one isn't evil.  It's just here so that we have something to compare the rest of them to.
 [Data URI Thumbnails](/iiif/data_uri.json) | This one has the thumbnails replaced with inline base64 encoded Data URIs.
 
+
+
+*[Source Available on Github](https://github.com/workergnome/evil_manifests)*
