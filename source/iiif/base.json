@@ -1,46 +1,46 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json",
+  "@id": "https://evil-manifests.davidnewbury.com/iiif/base.json",
 
-  "label": "Data URI for Thumbnail",
+  "label": "Base Manifest",
   "metadata": [
     {"label": "Author", "value": "David Newbury"}
   ],
-  "description": "This is to test if you can use an embedded data URI as a thumbnail.",
+  "description": "This is the base version of the IIIF manifest, with nothing odd about it.",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
   "seeAlso": {
-      "@id": "https://github.com/workergnome/evil_manifests",
+      "@id": "https://evil-manifests.davidnewbury.com",
       "format": "text/html"
   },
   "sequences": [
       {
-        "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#sequence",
+        "@id": "https://evil-manifests.davidnewbury.com/iiif/base.json#sequence",
         "@type": "sc:Sequence",
         "canvases": [
           {
-            "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas",
+            "@id": "https://evil-manifests.davidnewbury.com/iiif/base.json#canvas",
             "@type": "sc:Canvas",
             "label":"The Garden of Earthly Delights",
             "width":2952,
             "height":1574,
-            "thumbnail":"https://github.com/workergnome/evil_manifests/raw/master/the_garden_of_earthly_delights_thumb.png",
+            "thumbnail":"https://evil-manifests.davidnewbury.com/iiif/garden/the_garden_of_earthly_delights_thumb.png",
             "images": [
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource":{
-                    "@id": "https://github.com/workergnome/evil_manifests/raw/master/garden/full/full/0/default.jpg",
+                    "@id": "hhttps://evil-manifests.davidnewbury.com/iiif/garden/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
                     "service": {
                         "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "https://github.com/workergnome/evil_manifests/raw/master/garden",
+                        "@id": "https://evil-manifests.davidnewbury.com/iiif/garden",
                         "profile": "http://iiif.io/api/image/2/level0.json"
                     }
                 },
-                "on": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/data_uri.json#canvas"
+                "on": "https://evil-manifests.davidnewbury.com/iiif/base.json#canvas"
               }
             ]
           }
