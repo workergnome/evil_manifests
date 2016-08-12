@@ -9,6 +9,17 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+class NetlifyHeaders < Middleman::Extension
+  def after_build(builder)
+    Middleman::Cli::Build.source_root(".")
+    builder.thor.copy_file "#{app.config[:source]}/_headers", "#{app.config[:build_dir]}/_headers"
+  end
+end
+
+::Middleman::Extensions.register(:netlify, NetlifyHeaders)
+
+activate :netlify
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
