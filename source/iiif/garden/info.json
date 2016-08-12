@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/image/2/context.json",
-  "@id": "https://raw.githubusercontent.com/workergnome/evil_manifests/master/garden",
+  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden",
   "protocol" : "http://iiif.io/api/image",
   "width" : 2952,
   "height" : 1574,
