@@ -31,7 +31,7 @@
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource":{
-                    "@id": "hhttps://evil-manifests.davidnewbury.com/iiif/garden/full/full/0/default.jpg",
+                    "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/full/full/0/default.jpg",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
                     "service": {
