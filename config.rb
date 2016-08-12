@@ -11,8 +11,6 @@ page '/*.txt', layout: false
 
 class NetlifyHeaders < Middleman::Extension
   def after_build(builder)
-        Middleman::Cli::Build.source_root(".")
-    # builder.thor.copy_file "#{app.config[:source]}/_headers", "#{app.config[:build_dir]}/_headers"
 
     builder.thor.source_paths << File.dirname(__FILE__)
     ["_headers","_redirects"].each do |f|
