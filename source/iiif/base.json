@@ -7,7 +7,7 @@
   "metadata": [
     {"label": "Author", "value": "David Newbury"}
   ],
-  "description": "This is the base version of the IIIF manifest, with nothing odd about it.",
+  "description": "This is the base version of the IIIF manifest, with nothing odd about it at all.",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
   "seeAlso": {
