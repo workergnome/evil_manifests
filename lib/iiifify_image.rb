@@ -4,7 +4,7 @@ require "iiif_s3"
 opts = {
   output_dir: "./source",
   upload_to_s3: false,
-  base_url: "https://evil-manifests.davidnewbury.com",
+  base_url: "http://evil-manifests.davidnewbury.com",
   prefix: "iiif"
 }
 
