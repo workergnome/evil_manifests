@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1",
+  "@id": "http://evil-manifests.davidnewbury.com/iiif/images/garden-1",
   "protocol": "http://iiif.io/api/image",
   "width": 2952,
   "height": 1574,

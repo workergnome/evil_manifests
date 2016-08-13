@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/manifest.json",
+  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/data_uri.json",
   "@type": "sc:Manifest",
   "label": "Data URI for Thumbnail",
   "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
