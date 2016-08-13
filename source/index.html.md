@@ -8,10 +8,10 @@ This is a collection of evil IIIF presentation manifests, each one crafted to br
 
 These are used for testing  [IIIF Presentation Manifests](http://iiif.io/api/presentation/2.1/).
 
-Manifest Name                              |
--------------------------------------------|-----------
-[Base Manifest](/iiif/base.json)           | This one isn't evil.  It's just here so that we have something to compare the rest of them to.
-[Data URI Thumbnails](/iiif/data_uri.json) | This one has the thumbnails replaced with inline base64 encoded Data URIs.
+Manifest Name                               |
+--------------------------------------------|-----------
+[Base Manifest](/iiif/garden/manifest.json) | This one isn't evil.  It's just here so that we have something to compare the rest of them to.
+[Data URI Thumbnails](/iiif/garden/data_uri.json)  | This one has the thumbnails replaced with inline base64 encoded Data URIs.
 
 
 

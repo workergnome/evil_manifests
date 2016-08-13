@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://evil-manifests.davidnewbury.com/iiif/collection/top.json",
+  "@type": "sc:Collection",
+  "label": "top",
+  "manifests": [
+    {
+      "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Default evil manifest"
+    },
+    {
+      "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/data_uri.json",
+      "@type": "sc:Manifest",
+      "label": "Data URI for Thumbnail"
+    
+  ]
+}

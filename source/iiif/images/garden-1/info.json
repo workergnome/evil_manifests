@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2952,
+  "height": 1574,
+  "sizes": [
+    {
+      "width": 2952,
+      "height": 1574
+    },
+    {
+      "width": 250,
+      "height": 133
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

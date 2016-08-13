@@ -1,0 +1,54 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Default evil manifest",
+  "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
+  "description": "This is the base version of the IIIF manifest, with nothing odd about it at all.",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "metadata": [
+    {
+      "label": "Author",
+      "value": "David Newbury"
+    }
+  ],
+  "thumbnail": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/canvas/front.json",
+          "label": "front",
+          "width": 2952,
+          "height": 1574,
+          "thumbnail": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://evil-manifests.davidnewbury.com/iiif/garden/annotation/front.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://evil-manifests.davidnewbury.com/iiif/images/garden-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2952,
+                "height": 1574
+              },
+              "on": "https://evil-manifests.davidnewbury.com/iiif/garden/canvas/front.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
