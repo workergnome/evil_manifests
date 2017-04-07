@@ -12,6 +12,8 @@ Manifest Name                               |
 --------------------------------------------|-----------
 [Base Manifest](/iiif/garden/manifest.json) | This one isn't evil.  It's just here so that we have something to compare the rest of them to.
 [Data URI Thumbnails](/iiif/garden/data_uri.json)  | This one has the thumbnails replaced with inline base64 encoded Data URIs.
+[Base Manifest](/iiif/garden/inline_html.json) | This one isn't evil.  It's just here so that we have something to compare the rest of them to.
+
 
 
 
