@@ -1,0 +1,9 @@
+{
+  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/range/range1.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Range",
+  "canvases": [
+      "http://evil-manifests.davidnewbury.com/iiif/garden/canvas/front.json"
+  ],
+  "label": "Introduction"
+}

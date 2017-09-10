@@ -1,18 +1,18 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/inline_html.json",
+  "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/inline_js.json",
   "@type": "sc:Manifest",
-  "label": "Inline HTML manifest",
+  "label": "Inline JS manifest",
   "attribution": "Manifest created by David Newbury to test IIIF edge cases. Image use is The Garden of Earthly Delights, by Hieronymus Bosch, which is in the public domain.",
-  "description": "This is the base version of the IIIF manifest, with inline HTML and CSS in a metadata value.",
+  "description": "This is a version of a IIIF manifest, with inline javascript in a metadata value.",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "metadata": [
     {
       "label": "Author",
       "value": "David Newbury"
     },
-    { "label": "Embedded HTML",
-      "value": "<div style='font-size: 800%'>This should be very large.</div>"
+    { "label": "Dangerous HTML",
+      "value": "<div><script>document.getElementsByTagName('body')[0].innerHTML = 'Boo!';</script>This should include inline JS.  It probably won't be executed, though.</div>"
     }
   ],
   "thumbnail": "http://evil-manifests.davidnewbury.com/iiif/images/garden-1/full/250,/0/default.jpg",

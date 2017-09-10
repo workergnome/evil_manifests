@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://evil-manifests.davidnewbury.com/iiif/top.json",
+    "@type": "sc:Collection",
+    "label": "All the manifests",
+    "manifests": [
+      {
+        "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/manifest.json",
+        "@type": "sc:Manifest",
+        "label": "Default Manifest"
+      },
+      {
+        "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/everything_a_list.json",
+        "@type": "sc:Manifest",
+        "label": "Everything as a List"
+      }
+
+  ]
+}

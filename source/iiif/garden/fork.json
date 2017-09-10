@@ -1,0 +1,35 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/fork.json",
+    "@type": "sc:Collection",
+    "label": "A Fork-bomb of a collection",
+    "collections": [
+      {
+          "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/fork.json",
+          "@type": "sc:Collection",
+          "label": "Some go left...",
+          "viewingHint": "multi-part"
+      },
+      {
+          "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/fork.json",
+          "@type": "sc:Collection",
+          "label": "...and some go right.",
+          "viewingHint": "multi-part"
+      }
+    ],
+    "members": [
+        {
+            "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/fork.json",
+            "@type": "sc:Collection",
+            "label": "Some go left...",
+            "viewingHint": "multi-part"
+        },
+        {
+            "@id": "http://evil-manifests.davidnewbury.com/iiif/garden/fork.json",
+            "@type": "sc:Collection",
+            "label": "...and some go right.",
+            "viewingHint": "multi-part"
+        }
+    ],
+    "viewingHint": "top"
+}
